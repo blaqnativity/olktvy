@@ -1,0 +1,9 @@
+/* importing the font I need for this project */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* tailwindcss is being utilized to style this app */
+@import "tailwindcss";
+* {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+}

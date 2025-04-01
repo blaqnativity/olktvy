@@ -4,7 +4,11 @@ const MovieCard = ({ title, desc, rating, posterUrl }) => {
   return (
     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
       <a href="#">
-        <img className="rounded-t-lg" src={posterUrl} alt={title} />
+        <img
+          className="rounded-t-lg h-[24rem] w-full object-cover"
+          src={posterUrl}
+          alt={title}
+        />
       </a>
       <div className="p-5">
         <a href="#">
